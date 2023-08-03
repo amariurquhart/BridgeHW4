@@ -14,6 +14,9 @@ main() {
 
     binaryNum = userEntry;
 
+    if (userEntry == 0)
+        cout << "0";
+    
     while (binaryNum > 0)
     {
         binaryNum = binaryNum / 2;
