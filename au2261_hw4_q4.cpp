@@ -38,9 +38,10 @@ main() {
         cin >> number;
         if(number == -1)
             break;
-        else
+        else {
             sequenceTotal *= number;
             sequenceLength++;
+        }
     }
 
     sequenceFullLength = sequenceLength;
